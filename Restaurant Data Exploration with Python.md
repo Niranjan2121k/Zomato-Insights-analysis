@@ -92,36 +92,27 @@ This histogram illustrates the distribution of restaurant ratings across the dat
 ✅ **Conclusion**:
 Most restaurants in the dataset are rated **3.5 or above**, suggesting overall positive customer experiences and general satisfaction.
 
-### 📊 Histogram Analysis: Distribution of Restaurant Ratings
+### Approximate Cost per Meal for Two People
+
+#### Overview
+The chart shows the distribution of meal costs for two people across different price ranges.
 
 ![](5.png)
 
-This histogram visualizes how restaurant ratings are distributed across the dataset.
+#### Axes
+- **X-Axis (Cost):** Approximate cost per meal for two people, ranging from 100 to 950 in increments of 50.  
+- **Y-Axis (Count):** Number of meals falling within each cost category.
 
----
+#### Key Observations
+- The highest frequency occurs at the 300 cost level, with over 20 occurrences, making it the most common meal cost range.  
+- Other notable cost ranges are 150 and 400, each with around 15 occurrences.  
+- Lower frequencies are seen at the extremes (100, 800, 900, 950), indicating fewer meals in these cost brackets.
 
-#### 🧾 Chart Details
-- **Title**: Distribution of Restaurant Ratings  
-- **X-axis**: Restaurant Ratings (ranging from 2.5 to 5.0)  
-- **Y-axis**: Count of Ratings (Number of Restaurants)
+#### Color Representation
+- Bars are colored differently to aid visual distinction, though colors do not carry specific meanings.
 
----
-
-#### 🔍 Key Observations
-- ⭐ **Most Frequent Rating**:  
-  - **4.0** rating appears most often, with approximately **60 restaurants**.
-- 📊 **Other Prominent Ratings**:
-  - **3.5** rating shows a significant count (~40 restaurants).
-  - **3.0** rating is moderately common (~30 restaurants).
-- 🔻 **Less Frequent Ratings**:
-  - Ratings of **2.5** and **4.5** occur rarely (each likely under 15).
-- 📈 **Distribution Shape**:
-  - The data exhibits a **right-skewed distribution**, suggesting a strong inclination toward higher ratings.
-
----
-
-#### ✅ Conclusion
-The histogram reveals that most restaurants receive **above-average ratings**, with a majority falling between **3.5 and 4.0**. This pattern suggests generally **positive customer sentiment** toward dining experiences in the dataset.
+#### Conclusion
+The data highlights that the 300 cost range is the most typical meal expense for two people. Understanding this distribution can provide insights into consumer dining preferences and spending behavior.
 
 ### 📦 Box Plot Analysis: Impact of Online Ordering on Restaurant Ratings
 
@@ -171,7 +162,7 @@ The analysis suggests that **offering online ordering is associated with higher 
 
 - The chart is a heatmap showing the relationship between **restaurant type** and **online order availability**.
 
-![](6.png)
+![](7.png)
 
 ### Axes
 
